@@ -7,7 +7,8 @@ public class StudentCrudApp {
     public static void main(String[] args) {
         StudentRepository studentRepository = new StudentRepository();
         int id= 1;
-        studentRepository.deleteStudent(id);
+
+       // studentRepository.deleteStudent(id);
 
 //        Student student = createStudent();
 //        studentRepository.updateStudent(student);
